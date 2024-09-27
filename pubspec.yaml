@@ -1,0 +1,43 @@
+name: application
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_swiper_view: ^1.1.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/home.jpg
+    - assets/images/profile.jpeg
+    - assets/images/product1.webp
+    - assets/images/product2.webp
+    - assets/images/product3.jpg
+    - assets/images/product4.gif
+    - assets/images/product5.jpg
+    - assets/images/product6.jpg
+
+  fonts:
+    - family: JacquesFrancoisShadow
+      fonts:
+        - asset: assets/fonts/JacquesFrancoisShadow-Regular.ttf
+
+    - family: RobotoSerif
+      fonts:
+        - asset: assets/fonts/RobotoSerif-VariableFont_GRAD,opsz,wdth,wght.ttf
+        - asset: assets/fonts/RobotoSerif-Italic-VariableFont_GRAD,opsz,wdth,wght.ttf
